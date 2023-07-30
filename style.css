@@ -54,6 +54,10 @@ nav {
     color: rgba(217, 126, 57, 0.8);
 }
 
+.nav_links li:hover a, body.home li.home a,  body.activities li.activities a, body.photos li.photos a {
+    color: rgba(217, 126, 57, 0.8);
+}
+
 .cta {
     order: 2
 }
