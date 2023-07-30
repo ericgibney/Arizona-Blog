@@ -7,10 +7,26 @@
     background-color: #DCDCDC;
 }
 
-li, a, button {
+li, a, button, h1, h2, p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    color: #3E4E50;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 75px;
+    color: #3E4E50;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
     color: #3E4E50;
     text-decoration: none;
 }
@@ -20,6 +36,8 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
+    border-bottom: 2px solid #3E4E50;
+    margin: auto 10px;
 }
 
 .logo {
@@ -31,6 +49,7 @@ header {
 
 nav {
     order: 1;
+
 }
 
 .nav_links {
@@ -40,6 +59,7 @@ nav {
 .nav_links li {
     display: inline-block;
     padding: 0px 20px;
+    margin-top: 50%;
 }
 
 .nav_links li:nth-child(1) {
@@ -59,7 +79,9 @@ nav {
 }
 
 .cta {
-    order: 2
+    order: 2;
+    display: block;
+    margin-top: auto;
 }
 
 button {
@@ -74,4 +96,17 @@ button {
 
 button:hover {
     background-color: rgba(217, 126, 57, 0.8);
+}
+
+.main_container {
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.homepage_photo {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px auto 10px auto;
 }
